@@ -1,0 +1,7 @@
+  i. Keep your team ID confidential. Sharing it could negatively impact your score.
+ ii. Submit all answers to '{submissions_link}' using a POST request unless instructed otherwise.
+iii. Need help? Request a hint via a GET request to '{hint_url}?team_id=YOUR_TEAM_ID&challenge_id=YOUR_CHALLENGE_ID'.
+ iv. Each hint comes at a cost in points.
+  v. Submitting incorrect answers incurs penalty points; the penalty may vary for each level.
+ vi. If you want to retrieve all questions, make a GET request to '{question_link}?team_id=YOUR_TEAM_ID'.
+vii. Access these instructions by making a GET request to '{instructions_link}'.
