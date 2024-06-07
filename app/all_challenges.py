@@ -51,7 +51,7 @@ class AllChallenges:
         """
         if len(sys.argv) == 1:
             sys.argv.append("round_1")  # default to round 1
-        script_dir = Path(f"app/{sys.argv[1]}/challenges")
+        script_dir = Path(f"app/challenges/{sys.argv[1]}")
         if not script_dir.exists():
             print(f"The directory {script_dir} does not exist.")
             raise KeyboardInterrupt()

@@ -184,4 +184,4 @@ class Database:
             Any: A cursor to the documents returned by the find operation.
         """
         # Fetch all team documents from the database
-        return await self.teams.find({})
+        return self.teams.find({})
