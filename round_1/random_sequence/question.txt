@@ -1,0 +1,15 @@
+Send a 'GET' request to {file_url} with query params as 
+{{
+    'team_id' : TEAM_ID,
+    'challenge_id' : {challenge_id}
+}}
+
+to get a file, you have to find the flag (which is somewhere in the file) which is in the format 'flag{{FLAG_VALUE}}'
+
+Send a 'POST' request to {submission_url} with json body in the format, to submit your answer 
+
+{{
+    'team_id' : team_id,
+    'challenge_id' : {challenge_id},
+    'flag' : FLAG_VALUE
+}}

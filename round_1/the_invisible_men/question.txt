@@ -1,0 +1,14 @@
+Send a 'GET' request to {file_url} with query params
+{{
+  'level_id' : {challenge_id},
+  'challenge_id' : TEAM_ID
+}}
+
+to get a zip file, search for the file '{file_name}' and count the number of characters in that file to get COUNT
+
+Send a 'POST' request to {submission_url} with body in json format, to submit your answer : 
+{{
+    'team_id' : TEAM_ID,
+    'challenge_id' : {challenge_id},
+    'count' : COUNT
+}}

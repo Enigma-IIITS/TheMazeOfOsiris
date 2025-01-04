@@ -1,0 +1,11 @@
+character set for this Base 69 encoding: {char_set}
+Encode the string '{encode_string}' into BASE 69 to get ENCODED_STRING
+Decode the string '{decode_string}' which is encoded in BASE 69 to get DECODED_STRING
+
+Send a 'POST' request to {submission_url} with body in json format, to submit your answer : 
+{{
+    'team_id' : TEAM_ID,
+    'challenge_id' : {challenge_id},
+    'decoded_string' : DECODED_STRING,
+    'encoded_string' : ENCODED_STRING
+}}
